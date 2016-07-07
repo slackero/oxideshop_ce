@@ -105,9 +105,9 @@ function polygonArea($aX, $aY) {
         if ( $j == $n) {
             $j=0;
         }
-        $area += ($aX[i]+$aX[j])*($aY[i]-$aY[j]);
+        $area += ($aX[$i]+$aX[$j])*($aY[$i]-$aY[$j]);
     }
-    return area*.5;
+    return $area * .5;
 }
 
 class SingleTestTriangle {
