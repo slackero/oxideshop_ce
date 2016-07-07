@@ -313,7 +313,6 @@ class mysqli_perfmon_ADOConnection extends mysqli_perfmon_EXTENDER
         else
         {
             if (isset($_SESSION['INNODB_HIT_PCT'])) return $_SESSION['INNODB_HIT_PCT'];
-            return 0;
         }
         return 0;
     }
